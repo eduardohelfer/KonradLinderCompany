@@ -10,6 +10,10 @@
   z-index: 999;
 }
 
+.navbar i {
+  margin-left: 10px;
+}
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -41,7 +45,7 @@
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
+  justify-content: center;
   margin-right: 2rem;
 }
 
@@ -76,6 +80,10 @@
 }
 
 @media screen and (max-width: 960px) {
+  .fa-caret-down{
+    display: none;
+  }
+  
   .NavbarItems {
     position: relative;
   }

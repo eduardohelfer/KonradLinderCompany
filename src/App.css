@@ -8,7 +8,11 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.alquiler,
+.mantenimiento,
+.reacondicionamiento,
+.contact-us {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -38,6 +42,42 @@
   background-image: url('/images/img-8.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.alquiler {
+  background-image: url('/images/img-3.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.mantenimiento {
+  background-image: url('/images/img-4.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.reacondicionamiento {
+  background-image: url('/images/img-5.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact-us {
+  background-image: url('/images/img-6.jpg');
+  background-position: center;
+  background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
