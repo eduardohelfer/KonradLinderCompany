@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+/*import Navbar from './components/Navbar';*/
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -12,12 +12,14 @@ import Mantenimiento from './components/pages/Mantenimiento';
 import Reacondicionamiento from './components/pages/Reacondicionamiento';
 import Alquiler from './components/pages/Alquiler';
 
+import Menu from './components/Menu';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <Menu />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />

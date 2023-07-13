@@ -1,0 +1,23 @@
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.container-fluid {
+  background-color: var(--bs-dark);
+  padding: 10px;
+}
+
+.navbar{
+min-height: 5vh;
+margin: 0;
+padding: 0;
+background-color: var(--bs-dark);
+border-width: 0px;
+}
