@@ -5,6 +5,33 @@
       "link": "/"
     },
     {
+      "title": "Productos",
+      "link": "/products",
+      "submenu": [
+        {
+          "title": "Microscopios Biológicos",
+          "link": "/microscopios-biologicos"
+        },
+        {
+          "title": "Microscopios Materiales",
+          "link": "/microscopios-materiales"
+        },
+        {
+          "title": "Estereomicroscopios",
+          "link": "/estereomicroscopios"
+        },
+        {
+          "title": "Equipos de Laboratorio",
+          "link": "/equipos"
+        },
+       
+        {
+          "title": "Equipos Básicos",
+          "link": "/equipos-basicos"
+        }
+      ]
+    },
+    {
       "title": "Servicios",
       "link": "/services", 
       "submenu": [
@@ -21,10 +48,6 @@
           "link": "/alquiler"
         }
       ]
-    },
-    {
-      "title": "Productos",
-      "link": "/products"
     },
     {
       "title": "Contáctenos",
