@@ -12,14 +12,15 @@ import Mantenimiento from './components/pages/Mantenimiento';
 import Reacondicionamiento from './components/pages/Reacondicionamiento';
 import Alquiler from './components/pages/Alquiler';
 
-import Menu from './components/Menu';
+/* import Menu from './components/Menu';*/
+import MenuStrap from './components/MenuStrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
       <Router>
-        <Menu />
+        <MenuStrap />
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />

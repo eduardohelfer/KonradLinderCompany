@@ -16,7 +16,7 @@ const Menu = () => {
     if(submenu){
       
       return (
-        <NavDropdown title={title} id="basic-nav-dropdown">
+        <NavDropdown title={title} id="basic-nav-dropdown" drop="end">
           {
             submenu.map((item)=>(
               <NavDropdown.Item id={item.title} href={item.link}>
