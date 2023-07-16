@@ -22,7 +22,17 @@
         },
         {
           "title": "Equipos de Laboratorio",
-          "link": "/equipos"
+          "link": "/equipos",
+          "submenu": [
+            {
+              "title": "Patología",
+              "link": "/patologia"
+            },
+            {
+              "title": "Centrífugas",
+              "link": "/centrifugas"
+            }
+          ]
         },
        
         {
