@@ -75,24 +75,6 @@ function App() {
       }, [])
       return(<Home />);
     }
-
-
-    switch (param.id.slice(3, param.id.length)) {
-      case '1': return(<Alquiler />);
-        break;
-      case '2': return(<Reacondicionamiento />);
-        break;
-      default:
-        setHideMenu(false);
-        return(<Home />);
-    }
-
-    return (
-       /*<Alquiler />
-     {<{param.id.slice(3, 11)} />}
-     {<{`Alquiler`} />}*/
-      <div dangerouslySetInnerHTML={{__html: someHtml}}></div>
-    )
   }
 }
 export default App;

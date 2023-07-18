@@ -1,12 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import Cards from '../Cards';
+import CardsB from '../CardsB';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 
 import JsonData from "../data/data.home.json";
 import { useState } from 'react';
 import { useEffect } from 'react';
+
 
 function Home() {
 
@@ -19,6 +21,7 @@ function Home() {
     <>
       <HeroSection data={homeData.Header}/>
       <Cards />
+      <CardsB />
       <Footer />
     </>
   );

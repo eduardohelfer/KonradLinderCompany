@@ -1,50 +1,61 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import { Button, Card, CardText, CardTitle, Container, Col, Row } from 'reactstrap';
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
-        </div>
+    <>
+      <div className='cards' >
+        <Container style={{margin: "4rem auto"}}>  
+          <Row  className='card-row'>
+            <Col sm='5' 
+              style={{overflowX: 'hidden', display: 'flex', justifyContent: 'center', objectFit: "contain"}}
+            >
+              <img
+                alt="Card"
+                src="https://picsum.photos/400/400"
+                style={{overflowX: 'hidden', objectFit: 'contain'}}    
+              />
+            </Col>
+            <Col sm='7' style={{paddingLeft: "2rem"}}>
+              <CardTitle tag="h5">
+                Special Title Treatment
+              </CardTitle>
+              <CardText>
+                With supporting text wew abes estega seg ewaw below as a natural lead-in to additional content ates vowhel sop.
+              </CardText>
+              <Button>
+                Go somewhere
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+        <Container style={{margin: "4rem auto"}}>  
+          <Row  className='card-row'>
+            <Col sm='7' style={{paddingLeft: "2rem"}}>
+              <CardTitle tag="h5">
+                Special Title Treatment
+              </CardTitle>
+              <CardText>
+                With supporting text wew abes estega seg ewaw below as a natural lead-in to additional content ates vowhel sop.
+              </CardText>
+              <Button>
+                Go somewhere
+              </Button>
+            </Col>
+            <Col sm='5' 
+              style={{overflowX: 'hidden', display: 'flex', justifyContent: 'center', objectFit: "contain"}}>
+                <img
+                  alt="Card"
+                  src="https://picsum.photos/500/400"
+                  style={{overflowX: 'hidden', objectFit: 'contain'}}    
+                />
+            </Col>          
+          </Row>
+        </Container>
       </div>
-    </div>
+    </>
   );
 }
 
