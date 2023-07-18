@@ -77,6 +77,11 @@ const MenuStrap = () => {
       )
     }
   }
+  
+  const date = new Date();
+  let day = date.getDate();
+  let month = date.getMonth() + 1;
+  let year = date.getFullYear();
 
   return (
         <div>
@@ -91,7 +96,7 @@ const MenuStrap = () => {
               ))
             }
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText>{day}-{month}-{year}</NavbarText>
         </Collapse>
       </Navbar>
     </div>

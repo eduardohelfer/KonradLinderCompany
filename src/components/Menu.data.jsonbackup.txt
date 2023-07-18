@@ -1,0 +1,75 @@
+
+
+{
+  "menu": [
+    {
+      "title": "Portal",
+      "link": "/"
+    },
+    {
+      "title": "Productos",
+      "link": "/products",
+      "submenu": [
+        {
+          "title": "Microscopios Biológicos",
+          "link": "/microscopios-biologicos"
+        },
+        {
+          "title": "Microscopios Materiales",
+          "link": "/microscopios-materiales"
+        },
+        {
+          "title": "Estereomicroscopios",
+          "link": "/estereomicroscopios"
+        },
+        {
+          "title": "Equipos de Laboratorio",
+          "link": "/equipos",
+          "submenu": [
+            {
+              "title": "Patología",
+              "link": "/patologia"
+            },
+            {
+              "title": "Centrífugas",
+              "link": "/centrifugas"
+            }
+          ]
+        },
+       
+        {
+          "title": "Equipos Básicos",
+          "link": "/equipos-basicos"
+        }
+      ]
+    },
+    {
+      "title": "Servicios",
+      "link": "/services", 
+      "submenu": [
+        {
+          "title": "Mantenimiento",
+          "link": "/mantenimiento"
+        },
+        {
+          "title": "Reacondicionamiento",
+          "link": "/reacondicionamiento"
+        },
+        {
+          "title": "Alquiler de Equipos",
+          "link": "/alquiler"        
+        }
+      ]
+    },
+    {
+      "title": "Contáctenos",
+      "link": "/contact-us"
+    },
+    {
+      "title": "Nuevo Usurio",
+      "link": "/sign-up"
+    }
+  ]
+}
+
+

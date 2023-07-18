@@ -1,30 +1,40 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Button } from 'reactstrap';
 import './HeroSection.css';
 
-function HeroSection() {
+function HeroSection(props) {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('Watch Trailer')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
+      <video src='/videos/video-3.mp4' autoPlay loop muted />
+      <div className='topRow'>
+        <div  className='topLeft'>
+          <h1 className='headline'>{props.data ? props.data.title : "Loading"}</h1>
+          <p className='topParagraph'>{props.data ? props.data.paragraph : "Loading"}</p>
+
+          <div className='hero-btns'>
+            <Button color="success" /*
+               className='btns'
+              buttonStyle='btn--outline'
+              buttonSize='btn--large' */
+            >
+              GET STARTED
+            </Button>
+            <Button color="dark" 
+            
+            /*
+              className='btns'
+              buttonStyle='btn--primary'
+              buttonSize='btn--large' 
+              onClick={}*/
+            >
+              WATCH TRAILER <i className='far fa-play-circle' />
+            </Button>
+          </div>
+        </div>
+        <div className='topRight'>
+          <img className='topImage' src={props.data ? props.data.homeImage : ""} alt="" />
+        </div>
       </div>
     </div>
   );
