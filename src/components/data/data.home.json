@@ -2,7 +2,9 @@
   "Header": {
     "title": "Microscopios y otros Equipos para Laboratorios",
     "paragraph": "Desde un diseño básico hasta configuraciones especiales para su proyecto de investigación.",
-    "homeImage": "images/900-02.png"
+    "homeImage": "images/900-02.png",
+    "button1": "Explora",
+    "button2": "Consulta"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

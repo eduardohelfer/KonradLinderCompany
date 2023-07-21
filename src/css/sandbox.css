@@ -17,6 +17,9 @@
 .sandbox__carousel {
   position: relative;
   background-color: var(--background-code);
+  max-width: 1200px;
+  left: 50%;
+  transform: translateX(-50%)
 }
 @media (max-width: 749px) {
   .sandbox__carousel {

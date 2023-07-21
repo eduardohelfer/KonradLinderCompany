@@ -20,7 +20,7 @@ function HeroSection(props) {
                 buttonStyle='btn--outline'
                 buttonSize='btn--large' */
               >
-                GET STARTED
+                {props.data ? props.data.button1 : "Loading"}
               </Button>
               <Button color="dark" 
               
@@ -30,7 +30,7 @@ function HeroSection(props) {
                 buttonSize='btn--large' 
                 onClick={}*/
               >
-                WATCH TRAILER <i className='far fa-play-circle' />
+                {props.data ? props.data.button2 : "Loading"} <i className='far fa-play-circle' />
               </Button>
             </div>
           
