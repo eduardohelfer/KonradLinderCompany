@@ -8,20 +8,21 @@ import CardsB from '../components/CardsB';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 
-import JsonData from "../components/data/data.home.json";
+import JsonData from "./data/data.home.json";
 import { useState } from 'react';
 import { useEffect } from 'react';
 import CarouselA from '../components/CarouselA';
 
-import EmblaCarousel from '../js/EmblaCarousel';
-import '../css/base.css'
-import '../css/sandbox.css'
-import '../css/embla.css'
+import EmblaCarousel from '../components/EmblaCarousel/js/EmblaCarousel';
+import '../components/EmblaCarousel/css/base.css'
+import '../components/EmblaCarousel/css/sandbox.css'
+import '../components/EmblaCarousel/css/embla.css'
 
 const OPTIONS = { dragFree: true, loop: true }
 const SLIDE_COUNT = 10
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
+/* import coverImage from './images/Home/900-02.png'*/
 
 function Home() {
 
@@ -32,7 +33,7 @@ function Home() {
 
   return (
     <>
-      <HeroSection data={homeData.Header}/>
+      <HeroSection data={homeData.Header} /* coverImage={coverImage}*/ />
       <CardLeft />
       <section className="sandbox__carousel">
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />

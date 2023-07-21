@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cards.css';
+import './css/Cards.css';
 import { Button, Card, CardText, CardTitle, Container, Col, Row } from 'reactstrap';
 
 function CardRight() {

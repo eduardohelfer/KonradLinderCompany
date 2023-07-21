@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from 'reactstrap';
-import './HeroSection.css';
+import './css/HeroSection.css';
 // <video id="videoBG" className="vid1" src='/videos/video-3.mp4' autoPlay loop muted />
       
 function HeroSection(props) {

@@ -6,9 +6,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import menuData from './Menu.data.json';
+import menuData from './data/Menu.data.json';
 
-import './Menu.css';
+import './css/Menu.css';
 
 const Menu = () => {
 

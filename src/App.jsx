@@ -28,19 +28,19 @@ import './css/embla.css'
         <section className="sandbox__carousel">
           <EmblaCarousel slides={SLIDES} options={OPTIONS} />
         </section>
-*/
+
 
 const OPTIONS = { dragFree: true, loop: true }
 const SLIDE_COUNT = 10
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
-
+*/
 function App() {
 
   const [hideMenu, setHideMenu] = useState(false)
 
   return (
     <>
-      <video id="videoBG" src='/videos/video-3.mp4' autoPlay loop muted />
+      <video id="videoBG" src='./src/pages/images/App/video/video-3.mp4' autoPlay loop muted />
       
       <Router>
         

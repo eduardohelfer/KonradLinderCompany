@@ -14,7 +14,7 @@ import {
   NavbarText,
   Dropdown,
 } from 'reactstrap';
-import menuData from './Menu.data.json';
+import menuData from './data/Menu.data.json';
 
 const MenuStrap = () => {
 
