@@ -16,15 +16,36 @@ import Alquiler from './components/pages/Alquiler';
 import MenuStrap from './components/MenuStrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+/*import ReactDOM from 'react-dom/client'*/
+
+/*
+import EmblaCarousel from './js/EmblaCarousel'
+import './css/base.css'
+import './css/sandbox.css'
+import './css/embla.css'
+*/
+/*
+        <section className="sandbox__carousel">
+          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+        </section>
+*/
+
+const OPTIONS = { dragFree: true, loop: true }
+const SLIDE_COUNT = 10
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+
 function App() {
 
   const [hideMenu, setHideMenu] = useState(false)
 
   return (
     <>
+      <video id="videoBG" src='/videos/video-3.mp4' autoPlay loop muted />
+      
       <Router>
         
         {hideMenu ? '' : <MenuStrap />  }
+        
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
@@ -39,7 +60,7 @@ function App() {
 
           <Route path="/:id" children={<Child setHideMenu={ setHideMenu } />} />
         </Switch>
-        
+
       </Router>
     </>
   );
