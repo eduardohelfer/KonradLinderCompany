@@ -1,22 +1,22 @@
 import React from 'react';
-import '../../App.css';
-/* import Cards from '../Cards'; */
+import '../App.css';
+/* import Cards from '../components/Cards'; */
       /*<Cards />*/
-import CardLeft from '../CardLeft';
-import CardRight from '../CardRight';
-import CardsB from '../CardsB';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+import CardLeft from '../components/CardLeft';
+import CardRight from '../components/CardRight';
+import CardsB from '../components/CardsB';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 
-import JsonData from "../data/data.home.json";
+import JsonData from "../components/data/data.home.json";
 import { useState } from 'react';
 import { useEffect } from 'react';
-import CarouselA from '../CarouselA';
+import CarouselA from '../components/CarouselA';
 
-import EmblaCarousel from '../../js/EmblaCarousel';
-import '../../css/base.css'
-import '../../css/sandbox.css'
-import '../../css/embla.css'
+import EmblaCarousel from '../js/EmblaCarousel';
+import '../css/base.css'
+import '../css/sandbox.css'
+import '../css/embla.css'
 
 const OPTIONS = { dragFree: true, loop: true }
 const SLIDE_COUNT = 10

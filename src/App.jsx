@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 /*import Navbar from './components/Navbar';*/
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route, useParams } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import ContactUs from './components/pages/ContactUs';
-import SignUp from './components/pages/SignUp';
+import Services from './pages/Services';
+import Products from './pages/Products';
+import ContactUs from './pages/ContactUs';
+import SignUp from './pages/SignUp';
 
-import Mantenimiento from './components/pages/Mantenimiento';
-import Reacondicionamiento from './components/pages/Reacondicionamiento';
-import Alquiler from './components/pages/Alquiler';
+import Mantenimiento from './pages/Mantenimiento';
+import Reacondicionamiento from './pages/Reacondicionamiento';
+import Alquiler from './pages/Alquiler';
 
-/* import Menu from './components/Menu';*/
+/* import Menu from './Menu';*/
 import MenuStrap from './components/MenuStrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
