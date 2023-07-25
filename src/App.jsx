@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <video id="videoBG" src='./src/pages/images/App/video/video-3.mp4' autoPlay loop muted />
+      <video id="videoBG" src='/images/App/video/video-3.mp4' autoPlay loop muted />
       
       <Router>
         
