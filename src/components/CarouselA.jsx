@@ -67,7 +67,7 @@ function CarouselA(args) {
   });
 
   return (
-    <Carousel
+    <Carousel id="carousela"
       activeIndex={activeIndex}
       next={next}
       previous={previous}
@@ -84,7 +84,7 @@ function CarouselA(args) {
         directionText="Previous"
         onClickHandler={previous}
       />
-      <CarouselControl
+      <CarouselControl 
         direction="next"
         directionText="Next"
         onClickHandler={next}

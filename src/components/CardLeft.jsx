@@ -5,7 +5,7 @@ import { Button, Card, CardText, CardTitle, Container, Col, Row } from 'reactstr
 function CardLeft() {
   return (
     <>
-      <div className='cards' >
+      <div id="cards" className='cards' >
         <Container style={{margin: "1rem auto"}}>  
           <Row  className='card-row'>
             <Col sm='5' 
